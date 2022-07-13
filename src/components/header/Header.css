@@ -63,9 +63,6 @@ header {
 
 /* Phone */
 @media screen and (max-width: 767px) {
-  header {
-    height: 100vh;
-  }
   .header__socials,
   .scroll__down {
     display: none;
