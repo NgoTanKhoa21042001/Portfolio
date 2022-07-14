@@ -1,3 +1,6 @@
+nav {
+}
+
 .nav__socials {
   display: flex;
   width: max-content;
@@ -10,6 +13,7 @@
   transform: translateX(-50%);
   border-radius: 3rem;
   z-index: 2;
+  bottom: 4px;
 }
 
 .nav__socials a {
@@ -26,6 +30,6 @@
 }
 
 .nav__socials a.active {
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
